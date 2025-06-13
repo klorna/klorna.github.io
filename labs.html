@@ -17,33 +17,42 @@
             <div class="card">
                 <img src="assets/images/lab1.jpg" alt="Lab Challenge 1" class="card-img">
                 <div class="card-content">
-                    <h3 class="card-title">Challenge Name</h3>
-                    <p class="card-subtitle">Category: Web Security | Difficulty: Medium</p>
+                    <h3 class="card-title">Getting Started Knowledge Check</h3>
+                    <p class="card-subtitle">Category: Fundamentals | Difficulty: Easy</p>
                     
                     <h4>Problem Statement:</h4>
-                    <p>Description of the challenge and objectives.</p>
+                    <p>Complete the introductory penetration testing challenges covering basic reconnaissance, web vulnerabilities, and privilege escalation.</p>
                     
                     <h4>Approach:</h4>
                     <ol>
-                        <li>Step 1 of your approach</li>
-                        <li>Tools and techniques used</li>
+                        <li>Performed network scanning with Nmap</li>
+                        <li>Enumerated web directories and analyzed page sources</li>
+                        <li>Identified and exploited default credentials vulnerability</li>
+                        <li>Escalated privileges through misconfigured sudo permissions</li>
                     </ol>
                     
                     <h4>Solution:</h4>
                     <p>How you solved it and key findings.</p>
                     
+                    <h4>Key findings:</h4>
+                    <ul>
+                        <li>Discovered exposed admin interface at /admin/</li>
+                        <li>Cracked SHA1 password hash using rockyou.txt</li>
+                        <li>Achieved RCE through CMS template injection</li>
+                    </ul>
                     <h4>Lessons Learned:</h4>
                     <ul>
-                        <li>Key takeaway 1</li>
-                        <li>Key takeaway 2</li>
+                        <li>Importance of thorough web directory enumeration</li>
+                        <li>Dangers of default credentials in CMS platforms</li>
+                        <li>Privilege escalation through sudo misconfigurations</li>
                     </ul>
-                    
-                    <div class="screenshots">
-                        <h4>Screenshots:</h4>
-                        <img src="assets/images/lab1-ss1.jpg" alt="Screenshot 1" class="screenshot">
+                    <div class="lab-links">
+                        <a href="https://academy.hackthebox.com/course/preview/getting-started" class="btn btn-small">
+                            <i class="fas fa-external-link-alt"></i> View Module
+                            </a>
                     </div>
                 </div>
-            </div>
+        </div>
             
             <!-- Repeat for other challenges -->
         </div>
